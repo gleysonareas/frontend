@@ -1,0 +1,12 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    /*dessa forma utilizamos os atributos flex para fazermos o posicinamento do texto ao final da linha.*/
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer>span {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
